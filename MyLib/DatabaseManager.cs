@@ -153,7 +153,7 @@ namespace MyLib
                 tableBike.Columns.Add("idCustomer", typeof(int));
                 tableBike.Columns.Add("creationDate", typeof(DateTime));
                 tableBike.Columns.Add("assemblingdate", typeof(DateTime));
-                tableBike.Columns.Add("idemployee", typeof(int));
+                tableBike.Columns.Add("employee", typeof(string));
 
                 try
                 {
