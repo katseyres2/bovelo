@@ -1,0 +1,34 @@
+            var listView = new ListView();
+            listView.Bounds = new Rectangle(new Point(10, 10), new Size(150, 150));
+            listView.View = View.Details;
+            listView.LabelEdit = false;
+
+            //var modelView = new ListViewItem("Model", 0);
+            //modelView.SubItems.Add("City");
+            //modelView.SubItems.Add("Explorer");
+            //modelView.SubItems.Add("Adventure");
+
+            //var colorView = new ListViewItem("Color", 1);
+            //colorView.SubItems.Add("White");
+            //colorView.SubItems.Add("Black");
+            //colorView.SubItems.Add("Purple");
+            //colorView.SubItems.Add("Blue");
+
+            //var sizeView = new ListViewItem("Size", 2);
+            //sizeView.SubItems.Add("26\"");
+            //sizeView.SubItems.Add("28\"");
+
+            listView.Columns.Add("Model", -2);
+            listView.Columns.Add("Color", -2);
+            listView.Columns.Add("Size", -2);
+
+            var model_01 = new ListViewItem("City");
+            var model_02 = new ListViewItem("Explorer");
+            var model_03 = new ListViewItem("Adventure");
+
+            listView.Items.AddRange(new ListViewItem[] { model_01, model_02 });
+            listView.Items.Add(model_03);
+
+            //listView.Items.AddRange(new ListViewItem[] { modelView, colorView, sizeView });
+
+            Controls.Add(listView);
