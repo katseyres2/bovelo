@@ -2,8 +2,6 @@
 
 ![set text](https://i.imgur.com/Vq0UU1Q.png)
 
-![set text](https://www.travis-ci.com/Seb1903/bovelo_manager.svg?branch=repo_organization)
-
 ## Presentation :information_source:
 
 We created this application to provide some organization to startups (more precisely a bicycle startup).  
